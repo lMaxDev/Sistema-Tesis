@@ -1,0 +1,144 @@
+.perfil-contenedor {
+    width: 100%;
+    height: 80vh;
+    background-color: #0c182b;
+    border-radius: 10px;
+    border: 2px solid #172031;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-left: 10px;
+    margin-bottom: 17px;
+}
+
+header h1 {
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.editar-contenedor {
+    width: 50%;
+    margin-right: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.informacion-contenedor {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+.foto-perfil-contenedor {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil-contenedor .perfil-imagen {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.datos-perfil-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.datos-perfil-contenedor span {
+    margin: 5px 0;
+    color: white;
+}
+
+.datos-perfil-contenedor span:nth-child(1) {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.datos-perfil-contenedor span:nth-child(2) {
+    font-weight: 300;
+}
+
+.datos-perfil-contenedor span:nth-child(3) {
+    margin-top: 40px;
+}
+
+.datos-editables-contenedor {
+    margin-bottom: 50px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.dato-editable-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.dato-editable-contenedor label {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    align-self: flex-start;
+}
+
+.dato-editable-contenedor input {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 1.3em;
+    padding: 10px;
+    background-color: #122847;
+    border: 2px solid #172031;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.cerrar-sesion-contenedor {
+    align-self: flex-end;
+}
+
+.boton-cerrar-sesion {
+    width: 140px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #122847;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}

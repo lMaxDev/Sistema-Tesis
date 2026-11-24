@@ -1,0 +1,74 @@
+.formulario-contenedor {
+    background-color: #0c1728;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.input-contenedor input,
+.input-contenedor #opcion {
+    background-color: #030f22;
+}
+
+hr {
+    border: 0.5px solid #334155;
+    margin: 10px 0;
+}
+
+.tutulo-seccion {
+    margin-bottom: 20px;
+}
+
+.detalles-contenedor {
+    padding: 20px 0;
+}
+
+.input-icono-contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.detalles-producto-contenedor {
+    align-items: flex-end;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.encabezado-input span {
+    color: #c2c9df;
+    padding: 5px;
+    background-color: #6058ed;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.boton-añadir {
+    width: 40px;
+    font-weight: bold;
+}
+
+.boton-enviar {
+    background: linear-gradient(
+        90deg,
+        rgba(31, 159, 173, 1) 0%,
+        rgba(0, 119, 133, 1) 100%
+    );
+    color: #fff;
+    padding: 10px 15px;
+    transition: 0.25s;
+}
+
+.boton-quitar {
+    background: linear-gradient(
+        90deg,
+        rgba(212, 0, 99, 1) 0%,
+        rgba(224, 16, 47, 1) 100%
+    );
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.boton-enviar:hover {
+    outline: 2px solid #fff;
+}

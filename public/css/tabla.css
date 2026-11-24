@@ -1,0 +1,92 @@
+.tabla {
+    background-color: #0c182b;
+    border: 1px solid #172031;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+.tabla-contenedor {
+    overflow-y: auto;
+    border-radius: 12px;
+    max-height: 480px;
+    margin-top: 25px;
+    min-width: 400px;
+    background-color: #0b172a;
+    border: 1px solid #172031;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+    overflow: hidden;
+    border-radius: 12px;
+}
+thead {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    background-color: #172031;
+}
+
+td,
+th {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #172031;
+}
+
+.alineadoIzquierda {
+    text-align: left;
+}
+
+tbody {
+    background-color: #0b182a;
+    border-radius: 10px;
+}
+tbody tr:nth-child(even) {
+    background-color: #0b182abe;
+    border: 1px solid #172031;
+}
+
+.tutulo-seccion {
+    font-size: 22px;
+    font-weight: 400;
+    color: #eeeeee;
+}
+
+.accionesTabla {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.botonTabla {
+    border: none;
+    color: white;
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-eliminar {
+    background-color: #d81b56;
+}
+
+.boton-editar {
+    background-color: #5955e5;
+}
+
+.dinero {
+    color: #57c47c;
+    font-weight: 500;
+}
+
+.detallesBoton {
+    color: #537edb;
+}

@@ -1,0 +1,55 @@
+label {
+    padding-left: 10px;
+}
+
+.detalles-formulario-contenedor {
+    flex-wrap: wrap;
+}
+
+.input-contenedor.contenedor-detalle {
+    min-width: 200px;
+}
+
+.contenedor-detalle input {
+    margin-top: 8px;
+}
+
+.contenedor-detalle select {
+    margin-top: 8px;
+}
+
+.detallesBoton {
+    color: #537edb;
+    display: flex;
+    align-self: center;
+}
+
+.detallesBoton span {
+    transform: translateY(-3px);
+}
+
+.horaVenta {
+    font-size: 0.8em;
+    color: #cbd5e1;
+}
+
+.botonLateral1 {
+    background: linear-gradient(
+        90deg,
+        rgba(106, 70, 223, 1) 0%,
+        rgba(72, 70, 223, 1) 100%
+    );
+}
+
+.botonLateral1 .enlaceLateral {
+    color: #fff;
+}
+
+td,
+th {
+    padding: 14px 15px;
+}
+
+.tutulo-seccion {
+    margin-bottom: 20px;
+}

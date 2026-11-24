@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.factura-contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.titulo-Factura {
+    margin-bottom: 20px;
+}
+
+.titulo-Factura h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.titulo-Factura span {
+    background-color: #6041e5;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+.pedido-contenedor {
+    width: 49%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.informacion-contenedor {
+    width: 49%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.informacion-cliente,
+.informacion-venta {
+    background-color: #fafafe;
+    padding: 10px;
+    border: solid 1px #e0e0e0;
+}
+
+h4 {
+    padding-bottom: 5px;
+}
+
+.info-contenedor {
+    padding-bottom: 3px;
+}
+
+.encabezado-info,
+.descripcion {
+    font-size: 0.8em;
+    color: #6d6d6d;
+}
+
+.info-contenedor p {
+    font-size: 0.9em;
+}
+
+//TABLA
+
+.tabla {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+}
+
+.tabla-contenedor {
+    max-height: 480px;
+    min-width: 400px;
+    background-color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+}
+thead {
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+th {
+    background-color: #f0edf9;
+}
+
+td,
+th {
+    padding: 12px 15px;
+    text-align: left;
+    border-top: 1px solid #e0e0e0;
+}
+
+.alineadoIzquierda {
+    text-align: left;
+}
+
+tbody {
+    background-color: #fff;
+}
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.tutulo-seccion {
+    display: flex;
+    align-items: center;
+    color: #6041e5;
+    padding: 15px 10px;
+}
+
+.tutulo-seccion h4 {
+    padding: 0;
+    margin-left: 5px;
+}
+
+.detalles-contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.detalles-contenedor-card {
+    width: 49%;
+    gap: 5px;
+}
+
+.card-descuento {
+    float: left;
+}
+
+.card-total {
+    float: right;
+}
+
+.detalles-seccion {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    border-right: solid 3px #6041e5;
+}
+
+.detalles-seccion.izquierda {
+    border-left: solid 3px #6041e5;
+    border-right: none;
+}
+
+.descripcion-descuento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-total {
+    justify-content: space-between;
+}
+
+.subtotal-contenedor,
+.tutulo-descuento {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subtotal-contenedor {
+    flex-direction: column;
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.totalFinal-contenedor,
+.descripcion-descuento {
+    padding-top: 10px;
+    border-top: dashed 1px #bebebe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.monto,
+.monto-total,
+.descuento {
+    float: right;
+}
+
+.totalFinal-contenedor .monto-total {
+    color: #6041e5;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.xd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.ico {
+    color: #6041e5;
+}
+
+.no {
+    color: rgb(221, 83, 83);
+}
+
+.si {
+    color: rgb(20, 158, 61);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "sans-serif";
+}
+
+body {
+    background-color: #ffffff;
+    color: #1e293b;
+    padding: 25px;
+    font-size: 13px;
+    height: auto; /* Evita bloquear el salto de página */
+}
+
+.factura-contenedor {
+    width: 100%;
+}
+
+/* UTILIDADES DE MAQUETACIÓN COMPATIBLES */
+.tabla-invisible {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+.tabla-invisible td {
+    border: none;
+    padding: 0;
+}
+.text-right {
+    text-align: right;
+}
+.no-romper {
+    page-break-inside: avoid;
+}
+
+/* SECCIÓN 1: ENCABEZADO */
+.encabezado-tabla {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #6041e5;
+    padding-bottom: 12px;
+}
+
+.marca-titulo {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1e293b;
+}
+
+.badge-factura {
+    background-color: #6041e5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 18px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* SECCIÓN 2 y 3: TARJETAS DE INFORMACIÓN */
+.bloque-info {
+    background-color: #f8fafc;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+}
+
+h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #6041e5;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.info-contenedor {
+    margin-bottom: 5px;
+}
+
+.encabezado-info {
+    font-size: 11px;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.info-contenedor p {
+    font-size: 13px;
+    color: #1e293b;
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+/* SECCIÓN 4: TABLA DE PRODUCTOS */
+.tabla-titulo-barra {
+    margin-top: 15px;
+    background-color: #f1f5f9;
+    padding: 8px 10px;
+    border-left: 4px solid #6041e5;
+    margin-bottom: 10px;
+}
+.tabla-titulo-barra h4 {
+    margin: 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: #f0edf9;
+    color: #475569;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.descripcion {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 3px;
+}
+
+/* SECCIÓN 5: TOTALES */
+.detalles-seccion {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    border-radius: 8px;
+    border-right: 4px solid #6041e5;
+    background-color: #fdfdfd;
+}
+
+.detalles-seccion.izquierda {
+    border-left: 4px solid #6041e5;
+    border-right: none;
+}
+
+.monto-total {
+    color: #6041e5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ESTADOS DE DESCUENTO */
+.descuento-toggle {
+    font-weight: bold;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.no {
+    background-color: #fef2f2;
+    color: #ef4444;
+}
+.si {
+    background-color: #f0fdf4;
+    color: #22c55e;
+}
+
+/* PIE DE PÁGINA */
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 10px;
+}

@@ -1,0 +1,102 @@
+header {
+    margin-bottom: 20px;
+}
+
+.graficasContenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.graficaContenedor {
+    width: 47.5%;
+    color: #000;
+    background-color: #0c182b;
+    border-radius: 10px;
+    border: 1px solid #172031;
+}
+
+.tituloGrafica {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.dataLabels.style.colors {
+    color: #fff;
+}
+
+.datosHoyContenedor {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.tituloDatoHoy {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.datoHoy {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #f59e0b;
+    color: #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.valorDatoHoy {
+    padding: 15px;
+}
+
+.valorDatoHoy:first-child {
+    border-right: #000 solid 1px;
+}
+
+.seleccionador {
+    margin-right: 10px;
+    font-size: 0.8em;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+    transition: 0.25s;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #eeeeee1e;
+    background-color: #1e293b;
+    color: #fff;
+}
+
+.seleccionador:hover {
+    border-color: #ffffffbe;
+}
+
+.botonLateral3 {
+    background: linear-gradient(
+        90deg,
+        rgba(196, 127, 8, 1) 0%,
+        rgba(253, 157, 49, 1) 100%
+    );
+}
+
+.botonLateral3 .enlaceLateral {
+    color: #fff;
+}
+
+.graficaProyeccionContenedor {
+    width: 100%;
+    margin: 0 25px;
+}

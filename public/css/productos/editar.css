@@ -1,0 +1,23 @@
+.botones-formulario-contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-quitar {
+    background: linear-gradient(
+        90deg,
+        rgba(224, 31, 121, 1) 0%,
+        rgba(224, 16, 47, 1) 100%
+    );
+    color: #fff;
+    padding: 10px 15px;
+    width: auto;
+}
+
+.boton-quitar a {
+    color: #fff;
+}
+
+.boton-quitar:hover {
+    outline: 2px solid #fff;
+}

@@ -1,0 +1,156 @@
+header {
+    margin-bottom: 20px;
+}
+
+.contendorPrncipal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.metrica1 {
+    width: 49%;
+}
+
+.metrica2 {
+    width: 49%;
+}
+
+.tutulo-seccion {
+    padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.descripcion-producto {
+    font-size: 0.8em;
+    color: #cbd5e1;
+}
+
+.productosTabla {
+    width: 100%;
+}
+
+.contenedorMetricas {
+    background-color: #0c182b;
+    padding: 20px;
+    border: 2px solid #172031;
+    border-radius: 12px;
+}
+
+.contenedorMetricas-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flatpickr-input {
+    margin-right: 10px;
+    font-size: 0.9em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    transition: 0.25s;
+    border: none;
+    text-align: center;
+    border: 2px solid #212d42;
+    background-color: #0b1527;
+    color: #fff;
+}
+
+#flatpickr-input:hover {
+    border-color: #ffffffbe;
+}
+
+.botonLateral4 {
+    background: linear-gradient(
+        90deg,
+        rgba(32, 154, 246, 1) 0%,
+        rgba(35, 84, 246, 1) 100%
+    );
+}
+
+.botonLateral4 .enlaceLateral {
+    color: #fff;
+}
+
+.cartaInformacion-contenedor {
+    width: 20%;
+    height: 150px;
+}
+
+.tutulo-seccion span {
+    color: #2099f6;
+    font-weight: bold;
+}
+
+.tutulo-seccion.icono span {
+    color: #4c51f2;
+}
+
+.metrica3 {
+    width: 100%;
+}
+
+/*Ajustes de tabla*/
+
+.tabla-contenedor {
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+table {
+    border-radius: 0px;
+    border: none;
+}
+
+tr {
+    border: none;
+    height: 58px;
+}
+
+td,
+th {
+    border: none;
+}
+
+tbody {
+    background-color: #1b2437;
+}
+
+th {
+    background-color: #0c182b;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    min-width: 180px;
+    padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0c182b;
+    border: none;
+}
+
+.metricaTablaCantidad {
+    background-color: #89342c;
+    line-height: 0px;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+.enlaceTabla {
+    color: #ae7fff;
+    padding: 3px;
+}
+
+.enlaceTabla:hover {
+    border-bottom: 1px solid #ae7fff;
+}

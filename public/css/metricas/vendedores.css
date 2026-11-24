@@ -1,0 +1,239 @@
+header p {
+    margin-left: 10px;
+}
+
+.botonPrincipal-contenedor {
+    margin-bottom: 0px;
+}
+
+.cartaInformacion-contenedor {
+    height: 160px;
+    padding: 20px;
+}
+
+.icono-inferior {
+    font-size: 3.5em;
+    rotate: 4deg;
+}
+
+.icono-inferior {
+    font-size: 4em;
+    rotate: 14deg;
+}
+.icono-inferior.color1 {
+    color: #271d5a;
+}
+
+.icono-inferior.color2 {
+    color: #0f3b3d;
+    rotate: -14deg;
+}
+
+.icono-inferior.color3 {
+    color: #10295a;
+}
+
+.data-carta {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.imagen-carta {
+    right: 20px;
+    bottom: 10px;
+}
+
+.graficaContenedor {
+    margin-top: 20px;
+    background-color: #0c182b;
+    border-radius: 12px;
+    border: 1px solid #172031;
+}
+
+.graficaSubContenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.seleccionadoresGrafica-contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+}
+
+.graficaSeleccionadorTitulo {
+    padding: 10px;
+    color: #ccccccd2;
+}
+
+.xd {
+    margin-top: 8px;
+}
+
+#opcion,
+.seleccionadoresGrafica-contenedor .botonPrincipal2 {
+    width: 120px;
+    font-size: 1em;
+    padding: 6px 10px;
+    color: #fff;
+    background: linear-gradient(135deg, #0c182b, #0a2350);
+    border: 1px solid #1e293d;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#opcion:hover,
+.seleccionadoresGrafica-contenedor .botonPrincipal2:hover {
+    border: 1px solid #d5e4ff;
+}
+
+.option {
+    color: #fff;
+    background: #0c182b;
+    text-align: center;
+}
+
+.graficaContenedor,
+.grafica {
+    width: 100%;
+}
+
+.apexcharts-tooltip {
+    background: none !important;
+}
+
+.puntoEstadistica {
+    color: #a137c2;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.puntoEstadistica2 {
+    color: #37c276;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.texto-gradiente {
+    font-size: 2rem;
+    font-weight: 700; /* Entre más gruesa la letra, mejor se aprecia */
+
+    /* 1. Definimos el gradiente de fondo */
+    background: linear-gradient(135deg, #46b8ff, #9d76ff);
+
+    /* 2. Recortamos el fondo para que solo afecte al texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Hacemos que el color del texto original sea transparente */
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.texto-grafica {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.texto-grafica span {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.horaVenta {
+    color: #ffffffaf;
+    font-size: 0.8em;
+}
+
+.botonPrincipal {
+    background: linear-gradient(135deg, #0c182b, #162e53, #0c182b);
+    border: none;
+    padding: 10px 20px;
+    user-select: none;
+    outline: 1px solid #3f495c73;
+    cursor: text;
+    font-size: 1.3em;
+    width: 250px;
+}
+
+.botonPrincipal:hover {
+    outline: 1px solid #3f495c;
+}
+
+.detallesBoton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-tabla-contenedor {
+    margin-top: 20px;
+}
+
+.encabezado-tabla-contenedor {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tutulo-seccion {
+    margin: 0;
+}
+
+#flatpickr-input2::placeholder {
+    opacity: 1;
+    text-align: center;
+}
+
+.SeleccionadorFecha {
+    position: relative;
+}
+
+.SeleccionadorFecha span {
+    position: absolute;
+    font-size: 2em;
+    top: calc(50% - 16px);
+    left: 30px;
+}
+
+.fechaTabla {
+    color: #2099f6;
+}
+
+.tabla-contenedor {
+    overflow-y: auto;
+    border-radius: 12px;
+    border: 1px solid #172031;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+thead th::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -14px; /* Controla qué tan abajo llega la sombra */
+    width: 100%;
+    height: 14px;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.055),
+        rgba(255, 255, 255, 0)
+    );
+    pointer-events: none; /* Evita que interfiera con los clics */
+}
+
+table {
+    overflow: scroll;
+}

@@ -1,0 +1,88 @@
+.formulario-contenedor {
+    margin: 0;
+}
+
+.seccion1,
+.seccion2 {
+    padding: 20px;
+    background-color: #0c182b;
+    margin-bottom: 25px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+.encabezado {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.encabezado span {
+    color: rgba(224, 31, 121, 1);
+    font-weight: 500;
+}
+
+.boton-enviar {
+    width: 120px;
+    padding: 10px 15px;
+    transition: 0.1s;
+    background: linear-gradient(
+        90deg,
+        rgba(224, 31, 121, 1) 0%,
+        rgba(224, 16, 47, 1) 100%
+    );
+    color: #fff;
+}
+
+.boton-enviar:hover {
+    width: 120px;
+    outline: 2px solid #fff;
+}
+
+.detalles-producto-contenedor {
+    flex-wrap: wrap;
+}
+
+.botonLateral5 {
+    background: linear-gradient(
+        90deg,
+        rgba(224, 31, 121, 1) 0%,
+        rgba(224, 16, 47, 1) 100%
+    );
+}
+
+.botonLateral5 a {
+    color: #ffff;
+}
+
+.detalles-contenedor {
+    background-color: #0c182b;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.tutulo-seccion {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.titulo-seccion-tabla {
+    margin-bottom: 15px;
+}
+
+.input-contenedor input,
+.input-contenedor #opcion {
+    background-color: #030f22;
+    border: 2px solid #172031;
+    color: #fff;
+}
+
+.tabla-contenedor {
+    margin-top: 30px;
+    background-color: #0c182b;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid #1b263a;
+}
